@@ -1,0 +1,133 @@
+/* styles.css */
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #801100;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 60px;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  margin-left: 15px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #801100;
+}
+
+/* Secciones */
+section {
+  padding: 30px 20px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  color: #801100;
+  margin-bottom: 15px;
+}
+
+/* Lista de valores u objetivos */
+ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+/* Organigrama (imagen) */
+.organigrama {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.organigrama img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Footer */
+footer {
+  background-color: #801100;
+  color: white;
+  text-align:center;
+  padding: 15px 20px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+}
+
+footer .qr {
+  margin: 10px 0;
+}
+
+footer img.qr {
+  height: 100px;
+  width: 100px;
+}
+
+footer p {
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header h1 {
+    margin: 10px 0;
+  }
+}
