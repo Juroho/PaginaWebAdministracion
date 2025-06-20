@@ -9,14 +9,14 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  background-color: #f4f4f4;
+  background-color: #eae6e1;
   color: #333;
 }
 
 /* Header */
 header {
   background-color: #C20000;
-  color: white;
+  color: #eae6e1;
   display: flex;
   align-items: center;
   justify-content:space-between;
@@ -60,14 +60,14 @@ nav ul li a:hover {
 /* Secciones */
 section {
   padding: 30px 20px;
-  background-color: white;
+  background-color: #eae6e1;
   margin: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 section h2 {
-  color: #801100;
+  color: #C20000;
   margin-bottom: 15px;
 }
 
@@ -97,7 +97,7 @@ ul li {
 /* Footer */
 footer {
   background-color: #C20000;
-  color: white;
+  color: #eae6e1;
   text-align:center;
   padding: 15px 20px;
   margin-top: 40px;
@@ -144,7 +144,7 @@ footer p {
     }
 
     .card {
-      background-color: white;
+      background-color: #eae6e1;
       padding: 20px;
       border-radius: 10px;
       box-shadow: 0 3px 8px rgba(0,0,0,0.1);
