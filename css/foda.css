@@ -10,13 +10,13 @@ body{
 }
 
 
-
-/* Encabezado */
-header {
-  background-color: #c20000;
-  color: white;
+h2{
+  color: #b30000;
   text-align: center;
-  padding: 20px 0;
+}
+h3{
+  color: #b30000;
+  text-align: center;
 }
 
 /* Contenedor del análisis FODA */
@@ -119,6 +119,56 @@ header {
 .circle:hover {
   transform: scale(1.05);
 }
+
+.estrategias {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.estrategias h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #b30000;
+}
+
+.estrategias-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.estrategia-box {
+  background-color: white;
+  text-align: left;
+  flex: 1 1 45%;
+  max-width: 45%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.estrategia-box:hover {
+  transform: scale(1.03);
+}
+
+/* Colores por tipo (opcional) */
+.fo { border-left: 6px solid #2e7d32; }
+.do { border-left: 6px solid #0277bd; }
+.fa { border-left: 6px solid #f57c00; }
+.da { border-left: 6px solid #c62828; }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .estrategia-box {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+
 
 /* Responsive para móviles */
 @media (max-width: 768px) {
