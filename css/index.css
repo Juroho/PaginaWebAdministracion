@@ -190,8 +190,9 @@ footer img.qr {
   margin: 10px 0;
 }
 
-footer p {
+footer a {
   font-size: 0.9rem;
+  color: white;
 }
 
 /* Responsive */
